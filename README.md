@@ -10,6 +10,7 @@
         - Run Test ```cmd + U```
             - Leveraging yeetd will reduce the simulator's hard drive power consumption.. [yeetd repo](https://github.com/biscuitehh/yeetd/releases/tag/1.0)
                 - Clean the ```cache``` and re-run Test ```cm + U```
+            - Disabling parallel test it could impprove the speed when running test. (Optional)
         - Commit and push project.
 
         
