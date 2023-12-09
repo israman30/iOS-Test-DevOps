@@ -8,6 +8,8 @@
 
 2. - Create Xcode project.
         - Run Test ```cmd + U```
+            - Using ```yeetd``` will decrease the usage of harddrive power by the simulator. [yeetd repo](https://github.com/biscuitehh/yeetd/releases/tag/1.0)
+                - Clean the ```cache``` and re-run Test ```cm + U```
         - Commit and push project.
-        
+
         
