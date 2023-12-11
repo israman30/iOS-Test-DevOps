@@ -15,6 +15,7 @@
             - For fater runnint test, we can disable de debugger in the App Scheme. (Optional) Note: Be aware that in a team the App Scheme is shared.
                 - It chould create another debugger or duplicate the scheme.
             - Create an Entry Point where test runs ```if``` Unit Test runs ```else``` Runs App.
+            - Create an Entry point for when running Unit Test and when running the App. Source [Jay Lyerly](https://www.bugsandbunnies.org/page/2/).
         - Commit and push project.
 
         
