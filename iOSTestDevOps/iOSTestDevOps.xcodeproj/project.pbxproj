@@ -44,6 +44,7 @@
 		4D6B45E12B24EBBD003ABCAC /* iOSTestDevOpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestDevOpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6B45E52B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestDevOpsUITests.swift; sourceTree = "<group>"; };
 		4D6B45E72B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestDevOpsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DAC7FC32B2692C70046CBA7 /* iOSTestDevOpsTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOSTestDevOpsTest.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		4D6B45BE2B24EBBB003ABCAC = {
 			isa = PBXGroup;
 			children = (
+				4DAC7FC32B2692C70046CBA7 /* iOSTestDevOpsTest.xctestplan */,
 				4D6B45C92B24EBBC003ABCAC /* iOSTestDevOps */,
 				4D6B45DA2B24EBBD003ABCAC /* iOSTestDevOpsTests */,
 				4D6B45E42B24EBBD003ABCAC /* iOSTestDevOpsUITests */,

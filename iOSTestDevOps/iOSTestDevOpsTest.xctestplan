@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "60CF8272-3959-4866-AB28-1CEB71E40390",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:iOSTestDevOps.xcodeproj",
+      "identifier" : "4D6B45C62B24EBBB003ABCAC",
+      "name" : "iOSTestDevOps"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:iOSTestDevOps.xcodeproj",
+        "identifier" : "4D6B45D62B24EBBD003ABCAC",
+        "name" : "iOSTestDevOpsTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:iOSTestDevOps.xcodeproj",
+        "identifier" : "4D6B45E02B24EBBD003ABCAC",
+        "name" : "iOSTestDevOpsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
