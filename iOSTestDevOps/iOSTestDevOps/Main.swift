@@ -10,6 +10,10 @@ import SwiftUI
 @main
 struct MainEntry {
     static func main() {
-        iOSTestDevOpsApp.main()
+        if NSClassFromString("XCTestCase") != nil {
+            TestApp.main()
+        } else {
+            iOSTestDevOpsApp.main()
+        }
     }
 }
