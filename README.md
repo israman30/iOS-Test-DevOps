@@ -16,6 +16,8 @@
                 - It chould create another debugger or duplicate the scheme.
             - Create an Entry Point where test runs ```if``` Unit Test runs ```else``` Runs App.
             - Create an Entry point for when running Unit Test and when running the App. Source [Jay Lyerly](https://www.bugsandbunnies.org/page/2/).
-        - Commit and push project.
+            - Create a new Test file with a ```zero_test()```.
+3. - CI/CD
+        - CI 
 
         
