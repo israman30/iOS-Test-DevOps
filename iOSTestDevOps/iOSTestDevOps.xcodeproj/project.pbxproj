@@ -14,6 +14,7 @@
 		4D6B45DC2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B45DB2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift */; };
 		4D6B45E62B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B45E52B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift */; };
 		4D6B45E82B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B45E72B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift */; };
+		4DAC7FC52B26962B0046CBA7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC7FC42B26962B0046CBA7 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4D6B45E52B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestDevOpsUITests.swift; sourceTree = "<group>"; };
 		4D6B45E72B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestDevOpsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4DAC7FC32B2692C70046CBA7 /* iOSTestDevOpsTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOSTestDevOpsTest.xctestplan; sourceTree = "<group>"; };
+		4DAC7FC42B26962B0046CBA7 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4D6B45CC2B24EBBC003ABCAC /* ContentView.swift */,
 				4D6B45CE2B24EBBD003ABCAC /* Assets.xcassets */,
 				4D6B45D02B24EBBD003ABCAC /* Preview Content */,
+				4DAC7FC42B26962B0046CBA7 /* Main.swift */,
 			);
 			path = iOSTestDevOps;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAC7FC52B26962B0046CBA7 /* Main.swift in Sources */,
 				4D6B45CD2B24EBBC003ABCAC /* ContentView.swift in Sources */,
 				4D6B45CB2B24EBBC003ABCAC /* iOSTestDevOpsApp.swift in Sources */,
 			);
