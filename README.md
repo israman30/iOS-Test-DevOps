@@ -18,6 +18,8 @@
             - Create an Entry point for when running Unit Test and when running the App. Source [Jay Lyerly](https://www.bugsandbunnies.org/page/2/).
             - Create a new Test file with a ```zero_test()```.
 3. - CI/CD
-        - CI 
+        - CI
+            - GitHub Actions: Create  ```mkdir .github``` the create ```mkdir workflows``` then create a buil ```touch build.yml``` 
+            - Make a ```script```
 
         

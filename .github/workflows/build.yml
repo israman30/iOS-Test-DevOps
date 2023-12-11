@@ -1,0 +1,13 @@
+name: Build
+
+on:
+    workflow_dispatch:
+
+jobs:
+    build:
+        name: Build and tests
+        runs-on: macos-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Run tests
+              run: ./run_tests.sh
