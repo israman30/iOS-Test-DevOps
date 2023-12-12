@@ -9,5 +9,7 @@ jobs:
         runs-on: macos-latest
         steps:
             - uses: actions/checkout@v4
+            - name: Show current version of Xcode
+              run: xcodebuild -version
             - name: Run tests
               run: ./run_tests.sh
