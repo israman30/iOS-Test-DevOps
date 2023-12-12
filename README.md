@@ -22,5 +22,6 @@
             - GitHub Actions: Create  ```mkdir .github``` the create ```mkdir workflows``` then create a buil ```touch build.yml``` 
             - Make a ```script```
             - ```./run_tests.sh``` for running the script. Using the ```chmod +x *.sh``` will abale the script to be executable.
+            - Build a trigger when ```push``` and ```PR``` + cancel when is concurrent.
 
         
