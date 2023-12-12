@@ -6,9 +6,13 @@ on:
 jobs:
     build:
         name: Build and test
-        runs-on: macos-latest
+        runs-on: macos-13
         steps:
             - uses: actions/checkout@v4
+            - name: Set up Xcode version
+              uses: maxim-lobanov/setup-xcode@v1.6.0
+              with:
+                xcode-version: '15.0.1'
             - name: Show current version of Xcode
               run: xcodebuild -version
             - name: Run tests
