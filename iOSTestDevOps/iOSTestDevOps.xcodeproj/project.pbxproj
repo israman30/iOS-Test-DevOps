@@ -11,7 +11,6 @@
 		4D6B45CD2B24EBBC003ABCAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B45CC2B24EBBC003ABCAC /* ContentView.swift */; };
 		4D6B45CF2B24EBBD003ABCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B45CE2B24EBBD003ABCAC /* Assets.xcassets */; };
 		4D6B45D22B24EBBD003ABCAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B45D12B24EBBD003ABCAC /* Preview Assets.xcassets */; };
-		4D6B45DC2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B45DB2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift */; };
 		4DAC7FC52B26962B0046CBA7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC7FC42B26962B0046CBA7 /* Main.swift */; };
 		4DAC7FC72B269C4E0046CBA7 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC7FC62B269C4E0046CBA7 /* TestApp.swift */; };
 		4DAC7FC92B269EEF0046CBA7 /* PlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC7FC82B269EEF0046CBA7 /* PlaceholderTests.swift */; };
@@ -34,7 +33,6 @@
 		4D6B45CE2B24EBBD003ABCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6B45D12B24EBBD003ABCAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D6B45D72B24EBBD003ABCAC /* iOSTestDevOpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestDevOpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D6B45DB2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestDevOpsTests.swift; sourceTree = "<group>"; };
 		4DAC7FC32B2692C70046CBA7 /* iOSTestDevOpsTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOSTestDevOpsTest.xctestplan; sourceTree = "<group>"; };
 		4DAC7FC42B26962B0046CBA7 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		4DAC7FC62B269C4E0046CBA7 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 		4D6B45DA2B24EBBD003ABCAC /* iOSTestDevOpsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4D6B45DB2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift */,
 				4DAC7FC82B269EEF0046CBA7 /* PlaceholderTests.swift */,
 			);
 			path = iOSTestDevOpsTests;
@@ -219,7 +216,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6B45DC2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift in Sources */,
 				4DAC7FC92B269EEF0046CBA7 /* PlaceholderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
