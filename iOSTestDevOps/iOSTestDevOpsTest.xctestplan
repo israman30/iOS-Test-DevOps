@@ -23,15 +23,6 @@
         "identifier" : "4D6B45D62B24EBBD003ABCAC",
         "name" : "iOSTestDevOpsTests"
       }
-    },
-    {
-      "enabled" : false,
-      "parallelizable" : true,
-      "target" : {
-        "containerPath" : "container:iOSTestDevOps.xcodeproj",
-        "identifier" : "4D6B45E02B24EBBD003ABCAC",
-        "name" : "iOSTestDevOpsUITests"
-      }
     }
   ],
   "version" : 1
