@@ -12,8 +12,6 @@
 		4D6B45CF2B24EBBD003ABCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B45CE2B24EBBD003ABCAC /* Assets.xcassets */; };
 		4D6B45D22B24EBBD003ABCAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B45D12B24EBBD003ABCAC /* Preview Assets.xcassets */; };
 		4D6B45DC2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B45DB2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift */; };
-		4D6B45E62B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B45E52B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift */; };
-		4D6B45E82B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B45E72B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift */; };
 		4DAC7FC52B26962B0046CBA7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC7FC42B26962B0046CBA7 /* Main.swift */; };
 		4DAC7FC72B269C4E0046CBA7 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC7FC62B269C4E0046CBA7 /* TestApp.swift */; };
 		4DAC7FC92B269EEF0046CBA7 /* PlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC7FC82B269EEF0046CBA7 /* PlaceholderTests.swift */; };
@@ -21,13 +19,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		4D6B45D82B24EBBD003ABCAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D6B45BF2B24EBBB003ABCAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D6B45C62B24EBBB003ABCAC;
-			remoteInfo = iOSTestDevOps;
-		};
-		4D6B45E22B24EBBD003ABCAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4D6B45BF2B24EBBB003ABCAC /* Project object */;
 			proxyType = 1;
@@ -44,9 +35,6 @@
 		4D6B45D12B24EBBD003ABCAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D6B45D72B24EBBD003ABCAC /* iOSTestDevOpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestDevOpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6B45DB2B24EBBD003ABCAC /* iOSTestDevOpsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestDevOpsTests.swift; sourceTree = "<group>"; };
-		4D6B45E12B24EBBD003ABCAC /* iOSTestDevOpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestDevOpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D6B45E52B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestDevOpsUITests.swift; sourceTree = "<group>"; };
-		4D6B45E72B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestDevOpsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4DAC7FC32B2692C70046CBA7 /* iOSTestDevOpsTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOSTestDevOpsTest.xctestplan; sourceTree = "<group>"; };
 		4DAC7FC42B26962B0046CBA7 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		4DAC7FC62B269C4E0046CBA7 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
@@ -68,13 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D6B45DE2B24EBBD003ABCAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,7 +65,6 @@
 				4DAC7FC32B2692C70046CBA7 /* iOSTestDevOpsTest.xctestplan */,
 				4D6B45C92B24EBBC003ABCAC /* iOSTestDevOps */,
 				4D6B45DA2B24EBBD003ABCAC /* iOSTestDevOpsTests */,
-				4D6B45E42B24EBBD003ABCAC /* iOSTestDevOpsUITests */,
 				4D6B45C82B24EBBB003ABCAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +74,6 @@
 			children = (
 				4D6B45C72B24EBBB003ABCAC /* iOSTestDevOps.app */,
 				4D6B45D72B24EBBD003ABCAC /* iOSTestDevOpsTests.xctest */,
-				4D6B45E12B24EBBD003ABCAC /* iOSTestDevOpsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,15 +106,6 @@
 				4DAC7FC82B269EEF0046CBA7 /* PlaceholderTests.swift */,
 			);
 			path = iOSTestDevOpsTests;
-			sourceTree = "<group>";
-		};
-		4D6B45E42B24EBBD003ABCAC /* iOSTestDevOpsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4D6B45E52B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift */,
-				4D6B45E72B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift */,
-			);
-			path = iOSTestDevOpsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,24 +146,6 @@
 			productReference = 4D6B45D72B24EBBD003ABCAC /* iOSTestDevOpsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4D6B45E02B24EBBD003ABCAC /* iOSTestDevOpsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D6B45F12B24EBBD003ABCAC /* Build configuration list for PBXNativeTarget "iOSTestDevOpsUITests" */;
-			buildPhases = (
-				4D6B45DD2B24EBBD003ABCAC /* Sources */,
-				4D6B45DE2B24EBBD003ABCAC /* Frameworks */,
-				4D6B45DF2B24EBBD003ABCAC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D6B45E32B24EBBD003ABCAC /* PBXTargetDependency */,
-			);
-			name = iOSTestDevOpsUITests;
-			productName = iOSTestDevOpsUITests;
-			productReference = 4D6B45E12B24EBBD003ABCAC /* iOSTestDevOpsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,10 +160,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					4D6B45D62B24EBBD003ABCAC = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 4D6B45C62B24EBBB003ABCAC;
-					};
-					4D6B45E02B24EBBD003ABCAC = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 4D6B45C62B24EBBB003ABCAC;
 					};
@@ -232,7 +180,6 @@
 			targets = (
 				4D6B45C62B24EBBB003ABCAC /* iOSTestDevOps */,
 				4D6B45D62B24EBBD003ABCAC /* iOSTestDevOpsTests */,
-				4D6B45E02B24EBBD003ABCAC /* iOSTestDevOpsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,13 +195,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4D6B45D52B24EBBD003ABCAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D6B45DF2B24EBBD003ABCAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,15 +224,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D6B45DD2B24EBBD003ABCAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D6B45E62B24EBBD003ABCAC /* iOSTestDevOpsUITests.swift in Sources */,
-				4D6B45E82B24EBBD003ABCAC /* iOSTestDevOpsUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -300,11 +231,6 @@
 			isa = PBXTargetDependency;
 			target = 4D6B45C62B24EBBB003ABCAC /* iOSTestDevOps */;
 			targetProxy = 4D6B45D82B24EBBD003ABCAC /* PBXContainerItemProxy */;
-		};
-		4D6B45E32B24EBBD003ABCAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D6B45C62B24EBBB003ABCAC /* iOSTestDevOps */;
-			targetProxy = 4D6B45E22B24EBBD003ABCAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,42 +452,6 @@
 			};
 			name = Release;
 		};
-		4D6B45F22B24EBBD003ABCAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G9TBJCK73T;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.israman.somenews.iOSTestDevOpsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOSTestDevOps;
-			};
-			name = Debug;
-		};
-		4D6B45F32B24EBBD003ABCAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G9TBJCK73T;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.israman.somenews.iOSTestDevOpsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOSTestDevOps;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +478,6 @@
 			buildConfigurations = (
 				4D6B45EF2B24EBBD003ABCAC /* Debug */,
 				4D6B45F02B24EBBD003ABCAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D6B45F12B24EBBD003ABCAC /* Build configuration list for PBXNativeTarget "iOSTestDevOpsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D6B45F22B24EBBD003ABCAC /* Debug */,
-				4D6B45F32B24EBBD003ABCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
