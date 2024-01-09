@@ -10,10 +10,11 @@ import SwiftUI
 @main
 struct MainEntry {
     static func main() {
+        /// Use if and get out of the conditional
         if NSClassFromString("XCTestCase") != nil {
             TestApp.main()
-        } else {
-            iOSTestDevOpsApp.main()
+            return
         }
+        iOSTestDevOpsApp.main()
     }
 }
