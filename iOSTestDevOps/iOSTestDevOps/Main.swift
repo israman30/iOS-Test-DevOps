@@ -11,7 +11,8 @@ import SwiftUI
 struct MainEntry {
     static func main() {
         /// Use if and get out of the conditional
-        if NSClassFromString("XCTestCase") != nil {
+        ///  cna use if statement or guard
+        guard NSClassFromString("XCTestCase") == nil else {
             TestApp.main()
             return
         }
